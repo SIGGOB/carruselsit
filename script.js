@@ -35,12 +35,12 @@ async function initializeCarousel() {
 
     slider.innerHTML = indicators.map(item => {
       const attr = item.attributes;
-      const link = attr.URL_Destino || '#';
-      const icon = attr.URL_Icono || '';
-      const title = attr.NombreIndicador || 'Indicador';
-      const description = attr.Descripcion || '';
+      const link = attr.url_destino || '#';
+      const icon = attr.url_icono || '';
+      const title = attr.nombreindicador || 'Indicador';
+      const description = attr.descripcion || '';
       const year = attr.anio || '';
-      const displayValue = attr.ValorIndicador || 'N/A';
+      const displayValue = attr.valorindicador || 'N/A';
 
       return `
         <div class="indicator-card">
