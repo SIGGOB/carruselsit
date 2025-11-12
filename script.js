@@ -1,6 +1,6 @@
 // --- CONFIGURACIÓN ---
 const restApiUrl = "https://geoportal.sanandres.gov.co/server/rest/services/Hosted/IndicadoresCarrusel/FeatureServer/0/query?where=1%3D1&outFields=*&f=json";
-const itemsPerPage = 5; // 5 tarjetas por vista
+const itemsPerPage = 4; // 5 tarjetas por vista
 const autoScrollInterval = 8000; // velocidad más lenta
 
 // --- ELEMENTOS DEL DOM ---
